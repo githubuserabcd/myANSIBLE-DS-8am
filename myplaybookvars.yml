@@ -3,8 +3,9 @@
   become: yes
   vars:
      myvar01: git
-     myvar02: wget
+     myvar02: tree
+     myvar03: wget
   tasks:
   - name: i want to display myvar01
     debug:
-        msg:"{{myvar01}}"
+        msg: "{{myvar01}}"
