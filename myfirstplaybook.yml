@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-  - name: in this task , i want to install tree
+  - name: in this task , i want to install tree 
     apt:
        name: tree
        state: present
