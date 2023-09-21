@@ -3,8 +3,7 @@
   become: yes
   vars:
      myvar01: git
-     myvar02: tree
-     myvar03: wget
+     myvar02: wget
   tasks:
   - name: i want to display myvar01
     debug:
