@@ -2,10 +2,10 @@
 - hosts: 10.0.0.5
   become: yes
   vars:
-     myvar01: git
-     myvar02: tree
-     myvar03: wget
+     myvar1: git
+     myvar2: tree
+     myvar3: wget
   tasks:
-  - name: i want to display myvar01
+  - name: i want to display myvar1
     debug:
-        msg: "{{myvar01}}"
+        msg: "{{myvar1}}" 
